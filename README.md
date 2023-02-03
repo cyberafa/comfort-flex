@@ -1,4 +1,4 @@
-# comfortflex-vue
+# comfortflex
 
 ## Project setup
 ```
