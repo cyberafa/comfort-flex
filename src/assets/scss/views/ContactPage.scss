@@ -1,0 +1,46 @@
+#contact {
+  .login {
+    display: none;
+  }
+
+  .contato-page {
+    background-color: #f6f4eb;
+  }
+
+  .contato-title {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: #bc81ff;
+    font-weight: 900;
+    padding-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+
+  .flex {
+    display: flex;
+    gap: 0.5em;
+    justify-content: center;
+
+    i,
+    p {
+      font-size: 1.5em;
+      font-weight: 300;
+    }
+  }
+
+  @media screen and (min-width: 48em) {
+    .login {
+      all: unset;
+      background-color: #fff;
+      color: #bc81ff;
+      padding: 6px 2%;
+      border-radius: 8px;
+      cursor: pointer;
+
+      a {
+        font-weight: 900;
+      }
+    }
+  }
+}

@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  transition: 0.2s all ease-in-out;
+}
+
+body {
+  margin: 0;
+  font-family: "Museo Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+b {
+  font-weight: 600;
+}
+
+section {
+  padding: 5em 0;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px !important;
+}
+
+.btn {
+  all: unset;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  padding-left: var(--btn-padding);
+  padding-right: var(--btn-padding);
+  border-radius: 8px;
+  text-transform: uppercase;
+  background-color: var(--btn-background, #bc81ff);
+  color: var(--btn-color, #fff);
+  cursor: pointer;
+
+  &.-sm {
+    height: 30px;
+    --btn-padding: 12px;
+  }
+
+  &.-md {
+    height: 40px;
+    --btn-padding: 24px;
+  }
+
+  &.-lg {
+    height: 50px;
+    --btn-padding: 36px;
+  }
+}
+
+@font-face {
+  font-family: "Museo Sans";
+  src: url(../fontface/MuseoSans-100.otf);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Museo Sans";
+  src: url(../fontface/MuseoSans-300.otf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Museo Sans";
+  src: url(../fontface/MuseoSans_500.otf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Museo Sans";
+  src: url(../fontface/MuseoSans_700.otf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Museo Sans";
+  src: url(../fontface/MuseoSans_900.otf);
+  font-weight: 900;
+}

@@ -1,0 +1,233 @@
+.section-form {
+  background-color: #f6f4eb;
+  text-align: center;
+}
+
+.alt-title {
+  color: #bc81ff;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+
+form input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  margin: 0.5em;
+  padding: 1em;
+  border: 2px solid #bc81ff;
+  border-radius: 0.8em;
+  outline: none;
+}
+
+input[type="password"] {
+  padding: 1em;
+  border: 2px solid #bc81ff;
+  border-radius: 0.8em;
+  outline: none;
+}
+
+.attachment {
+  position: relative;
+}
+
+.anexo {
+  font-size: 0.85em;
+  text-align: left;
+  display: block;
+  margin: 0.5em auto 0;
+  margin: 0;
+  padding: 1em;
+  border: 2px solid #bc81ff;
+  border-radius: 0.8em;
+  outline: none;
+  background-color: #fff;
+  color: #636c72;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+input[type="file"] {
+  position: absolute;
+  left: 0;
+
+  &::-webkit-file-upload-button {
+    display: none;
+  }
+}
+
+.form-row {
+  display: flex;
+  column-gap: 10px;
+  row-gap: 20px;
+  flex-direction: column;
+}
+
+.send {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 20px;
+}
+
+.form-flex {
+  column-gap: 0.75em;
+  row-gap: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-flex i {
+  display: block;
+}
+
+.form-grid {
+  display: grid;
+  row-gap: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+#cupom-fiscal {
+  padding: 5px;
+}
+
+.form-grid input,
+.anexo,
+#senha {
+  margin: 0 !important;
+  font-style: italic;
+}
+
+@media screen and (min-width: 48em) {
+  .alt-title {
+    font-size: 3em;
+  }
+
+  .section-form .container {
+    display: block;
+  }
+
+  .form-grid {
+    display: grid;
+    gap: 0.5em;
+    grid-template:
+      "nome nome nome nome nome nome nome nome cpf cpf cpf cpf cpf cpf tel tel tel tel tel tel"
+      "email email email email email email email email email email rua rua rua rua rua rua rua rua rua numero"
+      "bairro bairro bairro bairro cidade cidade cidade cidade cidade cidade cep cep cep cep cep cep estado estado estado estado"
+      "data data data npares npares npares nome-loja nome-loja nome-loja nome-loja nome-loja nome-loja nome-loja cnpj cnpj cnpj cnpj cnpj cnpj cnpj";
+  }
+
+  .nome {
+    grid-area: nome;
+  }
+
+  .cpf {
+    grid-area: cpf;
+  }
+
+  .tel {
+    grid-area: tel;
+  }
+
+  .email {
+    grid-area: email;
+  }
+
+  .rua {
+    grid-area: rua;
+  }
+
+  .numero {
+    grid-area: numero;
+  }
+
+  .bairro {
+    grid-area: bairro;
+  }
+
+  .cidade {
+    grid-area: cidade;
+  }
+
+  .cep {
+    grid-area: cep;
+  }
+
+  .estado {
+    grid-area: estado;
+  }
+
+  .data-compra {
+    grid-area: data;
+  }
+
+  .numero-pares {
+    grid-area: npares;
+  }
+
+  .nome-loja {
+    grid-area: nome-loja;
+  }
+
+  .cnpj-loja {
+    grid-area: cnpj;
+  }
+
+  form input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    padding: 10px 1em 10px 10px;
+    border-radius: 10px;
+    margin: 0;
+  }
+
+  .attachment {
+    flex-grow: 1;
+  }
+
+  .anexo {
+    font-size: 0.85em;
+    text-align: left;
+    padding: 10px 1em 10px 10px;
+    display: block;
+    border: 2px solid #bc81ff;
+    border-radius: 10px;
+    outline: none;
+    background-color: #fff;
+    color: #636c72;
+    font-weight: 300;
+    cursor: pointer;
+    max-width: unset;
+  }
+
+  .form-row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .form-flex {
+    justify-content: left;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+  }
+
+  .send {
+    flex-direction: row;
+    max-width: 50%;
+  }
+
+  .senha {
+    color: #272727;
+    font-size: 12px;
+    align-self: center;
+    text-align: left;
+    max-width: 70%;
+    margin-left: 0.5em;
+  }
+
+  #form input:not([type="submit"]) {
+    padding: 10px !important;
+  }
+}

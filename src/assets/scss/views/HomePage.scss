@@ -1,0 +1,56 @@
+#home {
+  .cupom {
+    display: none;
+    background: rgba($color: #fff, $alpha: 0.6);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+  }
+  .cupom-card {
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #bc81ff;
+    margin: 1em auto 0;
+    border-radius: 16px;
+    padding: 3em;
+  }
+
+  .cupom-title {
+    font-weight: 900;
+    width: 70%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    margin-bottom: 0.3em;
+  }
+
+  .cupom-title,
+  .cupom-alt-title {
+    font-size: 3em;
+    color: #fff;
+    font-weight: 900;
+  }
+
+  .cupom-numero {
+    background-color: #fff;
+    color: #272727;
+    font-size: 3em;
+    padding: 0.2em;
+    border-radius: 16px;
+    margin-bottom: 0.3em;
+  }
+
+  .cupom-text {
+    color: #fff;
+    font-size: 24px;
+    margin-top: 0.3em;
+  }
+}

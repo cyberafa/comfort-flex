@@ -1,0 +1,149 @@
+.login-page {
+  background-color: #f6f4eb;
+  padding: 3em 10%;
+  text-align: center;
+}
+
+.login-title {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: #bc81ff;
+  font-weight: 900;
+  margin-bottom: 1em;
+}
+
+.register-card {
+  padding: 5em 5%;
+  background-color: #bc81ff;
+  margin: 1em auto 0;
+  width: 100%;
+  border-radius: 16px;
+}
+
+.login-card {
+  padding: 5em 10%;
+  background-color: #bc81ff;
+  margin: 2em auto 0;
+  width: 100%;
+  border-radius: 16px;
+}
+
+.login-card-title {
+  font-size: 2.5em;
+  color: #fff;
+  font-weight: 900;
+  margin: 0;
+}
+
+.login-card-text {
+  color: #fff;
+  font-size: 20px;
+  margin: 0;
+}
+
+.login-button {
+  all: unset;
+  background-color: #fff;
+  color: #bc81ff;
+  padding: 6px 2%;
+  border-radius: 8px;
+  text-transform: uppercase;
+  margin-top: 2em;
+  font-weight: 900;
+}
+
+.recuperar-senha {
+  display: block;
+  color: #fff;
+  text-decoration: 2px solid #fff;
+  font-size: 10px;
+}
+
+#login-email {
+  width: 100%;
+  margin: 1.5em 0 0.5em;
+}
+
+#login-password {
+  display: block;
+  padding: 10px 1em 10px;
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 0.2em;
+}
+
+@media screen and (min-width: 48em) {
+  .login-page {
+    display: block;
+    padding: 3em 10%;
+    text-align: center;
+  }
+
+  .login-title {
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #bc81ff;
+    font-weight: 900;
+    margin-bottom: 1em;
+  }
+
+  .register-card {
+    padding: 5em 5%;
+    background-color: #bc81ff;
+    margin: 1em auto 0;
+    width: 50%;
+    border-radius: 16px;
+  }
+
+  .login-card {
+    padding: 5em 10%;
+    background-color: #bc81ff;
+    margin: 2em auto 0;
+    width: 50%;
+    border-radius: 16px;
+  }
+
+  .login-card-title {
+    font-size: 3em;
+    color: #fff;
+    font-weight: 900;
+    margin: 0;
+  }
+
+  .login-card-text {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .login-button {
+    all: unset;
+    background-color: #fff;
+    color: #bc81ff;
+    padding: 6px 2%;
+    border-radius: 8px;
+    text-transform: uppercase;
+    margin-top: 2em;
+    font-weight: 900;
+  }
+
+  .recuperar-senha {
+    display: block;
+    color: #fff;
+    text-decoration: 2px solid #fff;
+    font-size: 10px;
+  }
+
+  #login-email {
+    width: 100%;
+    margin: 1.5em 0 0.5em;
+  }
+
+  #login-password {
+    display: block;
+    padding: 10px 1em 10px;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 0.2em;
+  }
+}
